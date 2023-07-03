@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class BiometricSdkBiometricSdkConfig, BiometricSdkIrisConfig, BiometricSdkFaceConfig, BiometricSdkBiometricSdkConfigBuilder, BiometricSdkFaceExtractProperties, BiometricSdkFaceEncodeProperties, BiometricSdkFaceMatchProperties, BiometricSdkIrisExtractProperties, BiometricSdkIrisEncodeProperties, BiometricSdkIrisMatchProperties, BiometricSdkBiometricSdkFactory, BiometricSdkKotlinThrowable, BiometricSdkKotlinArray<T>, BiometricSdkKotlinException, BiometricSdkIrisEncodePropertiesCompanion, NSData, BiometricSdkImage, BiometricSdkIrisExtractPropertiesCompanion, BiometricSdkKotlinEnumCompanion, BiometricSdkKotlinEnum<E>, BiometricSdkCompressionHistory, BiometricSdkDeviceTechnology, BiometricSdkEyeLabel, BiometricSdkHorizontalOrientation, BiometricSdkImageFormat, BiometricSdkImageType, BiometricSdkBiometricType, BiometricSdkIsoRecord19794_6DataBlock, BiometricSdkIsoRecord19794_6, BiometricSdkIsoRecord19794_6Header, BiometricSdkKotlinByteArray, BiometricSdkKotlinx_datetimeInstant, BiometricSdkQualityBlock, BiometricSdkVerticalOrientation, BiometricSdkRange, BiometricSdkProperties, BiometricSdkCertificationRecord, BiometricSdkIsoRecord19794_2DataBlock, BiometricSdkIsoRecord19794_2, BiometricSdkIsoRecord19794_2Header, BiometricSdkIsoRecord19794_2MinutiaData, BiometricSdkQualityRecord, BiometricSdkFaceNetModelConfiguration, BiometricSdkImageFormat_, BiometricSdkCircle, BiometricSdkImageColorType, BiometricSdkKotlinIntArray, BiometricSdkPoint, BiometricSdkKotlinIntRange, BiometricSdkBiometricRecordValidationResult, BiometricSdkResourceHelperFactory, BiometricSdkResourceHelper, BiometricSdkBiometricException, NSError, BiometricSdkKotlinByteIterator, BiometricSdkKotlinx_datetimeInstantCompanion, BiometricSdkKotlinIntIterator, BiometricSdkKotlinIntProgressionCompanion, BiometricSdkKotlinIntProgression, BiometricSdkKotlinIntRangeCompanion, BiometricSdkKotlinx_serialization_coreSerializersModule, BiometricSdkKotlinx_serialization_coreSerialKind, BiometricSdkKotlinNothing;
+@class BiometricSdkBiometricSdkConfigBuilder, BiometricSdkBiometricSdkConfig, BiometricSdkPlatformContext, BiometricSdkIrisConfig, BiometricSdkFaceConfig, BiometricSdkFaceExtractProperties, BiometricSdkFaceEncodeProperties, BiometricSdkFaceMatchProperties, BiometricSdkIrisExtractProperties, BiometricSdkIrisEncodeProperties, BiometricSdkIrisMatchProperties, BiometricSdkBiometricSdkFactory, BiometricSdkKotlinThrowable, BiometricSdkKotlinArray<T>, BiometricSdkKotlinException, BiometricSdkSdkException, BiometricSdkKotlinRuntimeException, BiometricSdkIrisEncodePropertiesCompanion, NSData, BiometricSdkImage, BiometricSdkIrisExtractPropertiesCompanion, BiometricSdkKotlinEnumCompanion, BiometricSdkKotlinEnum<E>, BiometricSdkCompressionHistory, BiometricSdkDeviceTechnology, BiometricSdkEyeLabel, BiometricSdkHorizontalOrientation, BiometricSdkImageFormat, BiometricSdkImageType, BiometricSdkBiometricType, BiometricSdkIsoRecord19794_6DataBlock, BiometricSdkIsoRecord19794_6, BiometricSdkIsoRecord19794_6Header, BiometricSdkKotlinByteArray, BiometricSdkKotlinx_datetimeInstant, BiometricSdkQualityBlock, BiometricSdkVerticalOrientation, BiometricSdkRange, BiometricSdkProperties, BiometricSdkCertificationRecord, BiometricSdkIsoRecord19794_2DataBlock, BiometricSdkIsoRecord19794_2, BiometricSdkIsoRecord19794_2Header, BiometricSdkIsoRecord19794_2MinutiaData, BiometricSdkQualityRecord, BiometricSdkFaceNetModelConfiguration, BiometricSdkHashMethod, BiometricSdkImageFormat_, BiometricSdkResourceIOFactory, BiometricSdkCircle, BiometricSdkImageColorType, BiometricSdkKotlinIntArray, BiometricSdkPoint, BiometricSdkKotlinIntRange, BiometricSdkBiometricRecordValidationResult, NSError, BiometricSdkKotlinByteIterator, BiometricSdkKotlinx_datetimeInstantCompanion, BiometricSdkKotlinIntIterator, BiometricSdkKotlinIntProgressionCompanion, BiometricSdkKotlinIntProgression, BiometricSdkKotlinIntRangeCompanion, BiometricSdkKotlinx_serialization_coreSerializersModule, BiometricSdkKotlinx_serialization_coreSerialKind, BiometricSdkKotlinNothing;
 
-@protocol BiometricSdkBiometricSdkOperations, BiometricSdkBiometricSdk, BiometricSdkFaceOperations, BiometricSdkInputOutputOperations, BiometricSdkIrisOperations, BiometricSdkQualityControlOperations, BiometricSdkBiometricRecord, BiometricSdkKotlinClosedRange, BiometricSdkIrisEncoder, BiometricSdkIrisExtractor, BiometricSdkIrisMatcher, BiometricSdkKotlinComparable, BiometricSdkIdentifiable, BiometricSdkBiometricRecordSerializer, BiometricSdkFaceTemplateRecord, BiometricSdkFaceImageRecord, BiometricSdkFaceEncoder, BiometricSdkFaceExtractor, BiometricSdkFaceMatcher, BiometricSdkInputOutputRecordOperations, BiometricSdkInputOutputImageOperations, BiometricSdkInputOutputImageConvertOperations, BiometricSdkInterpreter, BiometricSdkKotlinIterator, BiometricSdkKotlinIterable, BiometricSdkKotlinOpenEndRange, BiometricSdkKotlinx_serialization_coreKSerializer, BiometricSdkKotlinx_serialization_coreEncoder, BiometricSdkKotlinx_serialization_coreSerialDescriptor, BiometricSdkKotlinx_serialization_coreSerializationStrategy, BiometricSdkKotlinx_serialization_coreDecoder, BiometricSdkKotlinx_serialization_coreDeserializationStrategy, BiometricSdkKotlinx_serialization_coreCompositeEncoder, BiometricSdkKotlinAnnotation, BiometricSdkKotlinx_serialization_coreCompositeDecoder, BiometricSdkKotlinx_serialization_coreSerializersModuleCollector, BiometricSdkKotlinKClass, BiometricSdkKotlinKDeclarationContainer, BiometricSdkKotlinKAnnotatedElement, BiometricSdkKotlinKClassifier;
+@protocol BiometricSdkBiometricSdkOperations, BiometricSdkBiometricSdk, BiometricSdkFaceOperations, BiometricSdkInputOutputOperations, BiometricSdkIrisOperations, BiometricSdkQualityControlOperations, BiometricSdkBiometricRecord, BiometricSdkKotlinClosedRange, BiometricSdkIrisEncoder, BiometricSdkIrisExtractor, BiometricSdkIrisMatcher, BiometricSdkKotlinComparable, BiometricSdkIdentifiable, BiometricSdkBiometricRecordSerializer, BiometricSdkFaceTemplateRecord, BiometricSdkFaceImageRecord, BiometricSdkFaceEncoder, BiometricSdkFaceExtractor, BiometricSdkFaceMatcher, BiometricSdkInputOutputRecordOperations, BiometricSdkInputOutputImageOperations, BiometricSdkInputOutputImageConvertOperations, BiometricSdkResourceIO, BiometricSdkInterpreter, BiometricSdkKotlinIterator, BiometricSdkKotlinIterable, BiometricSdkKotlinOpenEndRange, BiometricSdkKotlinx_serialization_coreKSerializer, BiometricSdkKotlinx_serialization_coreEncoder, BiometricSdkKotlinx_serialization_coreSerialDescriptor, BiometricSdkKotlinx_serialization_coreSerializationStrategy, BiometricSdkKotlinx_serialization_coreDecoder, BiometricSdkKotlinx_serialization_coreDeserializationStrategy, BiometricSdkKotlinx_serialization_coreCompositeEncoder, BiometricSdkKotlinAnnotation, BiometricSdkKotlinx_serialization_coreCompositeDecoder, BiometricSdkKotlinx_serialization_coreSerializersModuleCollector, BiometricSdkKotlinKClass, BiometricSdkKotlinKDeclarationContainer, BiometricSdkKotlinKAnnotatedElement, BiometricSdkKotlinKClassifier;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -147,19 +147,21 @@ __attribute__((swift_name("KotlinBoolean")))
 __attribute__((swift_name("BiometricSdk")))
 @protocol BiometricSdkBiometricSdk
 @required
+- (BiometricSdkBiometricSdkConfigBuilder *)configBuilder __attribute__((swift_name("configBuilder()")));
+- (id<BiometricSdkBiometricSdkOperations>)getInstance __attribute__((swift_name("getInstance()")));
 
 /**
- * @note This method converts instances of SdkInitializeException, IOException to errors.
+ * @note This method converts instances of SdkInitializationException, IOException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (BOOL)configureConfig:(BiometricSdkBiometricSdkConfig *)config error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("configure(config:)")));
-- (id<BiometricSdkBiometricSdkOperations>)getInstance __attribute__((swift_name("getInstance()")));
+- (BOOL)initializeConfig:(BiometricSdkBiometricSdkConfig *)config error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("initialize(config:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("BiometricSdkConfig")))
 @interface BiometricSdkBiometricSdkConfig : BiometricSdkBase
-- (instancetype)initWithIris:(BiometricSdkIrisConfig * _Nullable)iris face:(BiometricSdkFaceConfig * _Nullable)face __attribute__((swift_name("init(iris:face:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithContext:(BiometricSdkPlatformContext * _Nullable)context iris:(BiometricSdkIrisConfig * _Nullable)iris face:(BiometricSdkFaceConfig * _Nullable)face __attribute__((swift_name("init(context:iris:face:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) BiometricSdkPlatformContext * _Nullable context __attribute__((swift_name("context")));
 @property (readonly) BiometricSdkFaceConfig * _Nullable face __attribute__((swift_name("face")));
 @property (readonly) BiometricSdkIrisConfig * _Nullable iris __attribute__((swift_name("iris")));
 @end
@@ -170,10 +172,9 @@ __attribute__((swift_name("BiometricSdkConfigBuilder")))
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 - (BiometricSdkBiometricSdkConfig *)build __attribute__((swift_name("build()")));
+- (BiometricSdkBiometricSdkConfigBuilder *)withContextContext:(BiometricSdkPlatformContext *)context __attribute__((swift_name("withContext(context:)")));
 - (BiometricSdkBiometricSdkConfigBuilder *)withFaceExtractor:(BiometricSdkFaceExtractProperties *)extractor encoder:(BiometricSdkFaceEncodeProperties *)encoder matcher:(BiometricSdkFaceMatchProperties *)matcher __attribute__((swift_name("withFace(extractor:encoder:matcher:)")));
 - (BiometricSdkBiometricSdkConfigBuilder *)withIrisExtractor:(BiometricSdkIrisExtractProperties *)extractor encoder:(BiometricSdkIrisEncodeProperties *)encoder matcher:(BiometricSdkIrisMatchProperties *)matcher __attribute__((swift_name("withIris(extractor:encoder:matcher:)")));
-@property BiometricSdkFaceConfig * _Nullable faceConfig __attribute__((swift_name("faceConfig")));
-@property BiometricSdkIrisConfig * _Nullable irisConfig __attribute__((swift_name("irisConfig")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -183,13 +184,14 @@ __attribute__((swift_name("BiometricSdkFactory")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)biometricSdkFactory __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) BiometricSdkBiometricSdkFactory *shared __attribute__((swift_name("shared")));
+- (BiometricSdkBiometricSdkConfigBuilder *)configBuilder __attribute__((swift_name("configBuilder()")));
+- (id<BiometricSdkBiometricSdkOperations>)getInstance __attribute__((swift_name("getInstance()")));
 
 /**
- * @note This method converts instances of SdkInitializeException, IOException to errors.
+ * @note This method converts instances of SdkInitializationException, IOException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (BOOL)configureConfig:(BiometricSdkBiometricSdkConfig *)config error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("configure(config:)")));
-- (id<BiometricSdkBiometricSdkOperations>)getInstance __attribute__((swift_name("getInstance()")));
+- (BOOL)initializeConfig:(BiometricSdkBiometricSdkConfig *)config error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("initialize(config:)")));
 @end
 
 __attribute__((swift_name("BiometricSdkOperations")))
@@ -251,10 +253,36 @@ __attribute__((swift_name("KotlinException")))
 - (instancetype)initWithCause:(BiometricSdkKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
 @end
 
+__attribute__((swift_name("SdkException")))
+@interface BiometricSdkSdkException : BiometricSdkKotlinException
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(BiometricSdkKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)initWithCause:(BiometricSdkKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (readonly) BiometricSdkKotlinThrowable * _Nullable cause __attribute__((swift_name("cause")));
+@property (readonly) NSString * _Nullable message __attribute__((swift_name("message")));
+@end
+
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("SdkInitializeException")))
-@interface BiometricSdkSdkInitializeException : BiometricSdkKotlinException
-- (instancetype)initWithMessage:(NSString *)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+__attribute__((swift_name("SdkInitializationException")))
+@interface BiometricSdkSdkInitializationException : BiometricSdkSdkException
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(BiometricSdkKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
+@end
+
+__attribute__((swift_name("KotlinRuntimeException")))
+@interface BiometricSdkKotlinRuntimeException : BiometricSdkKotlinException
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(BiometricSdkKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCause:(BiometricSdkKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("SdkNotInitializedException")))
+@interface BiometricSdkSdkNotInitializedException : BiometricSdkKotlinRuntimeException
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 + (instancetype)new __attribute__((unavailable));
 - (instancetype)initWithMessage:(NSString * _Nullable)message cause:(BiometricSdkKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
@@ -284,7 +312,7 @@ __attribute__((swift_name("IrisEncoder")))
 @required
 - (NSData *)encodeSample:(BiometricSdkImage *)sample __attribute__((swift_name("encode(sample:)")));
 - (id<BiometricSdkBiometricRecord>)encodeSample_:(id<BiometricSdkBiometricRecord>)sample __attribute__((swift_name("encode(sample_:)")));
-- (NSData *)extractAndEncodeSample:(BiometricSdkImage *)sample __attribute__((swift_name("extractAndEncode(sample:)")));
+- (NSData * _Nullable)extractAndEncodeSample:(BiometricSdkImage *)sample __attribute__((swift_name("extractAndEncode(sample:)")));
 - (NSData *)extractAndEncodeSample_:(id<BiometricSdkBiometricRecord>)sample __attribute__((swift_name("extractAndEncode(sample_:)")));
 @end
 
@@ -322,7 +350,7 @@ __attribute__((swift_name("IrisExtractProperties.Companion")))
 __attribute__((swift_name("IrisExtractor")))
 @protocol BiometricSdkIrisExtractor
 @required
-- (BiometricSdkImage *)extractSample:(BiometricSdkImage *)sample __attribute__((swift_name("extract(sample:)")));
+- (BiometricSdkImage * _Nullable)extractSample:(BiometricSdkImage *)sample __attribute__((swift_name("extract(sample:)")));
 - (id<BiometricSdkBiometricRecord>)extractSample_:(id<BiometricSdkBiometricRecord>)sample __attribute__((swift_name("extract(sample_:)")));
 @end
 
@@ -718,8 +746,8 @@ __attribute__((swift_name("FaceEncoder")))
 - (NSData *)encodeSdkImage:(BiometricSdkImage *)sdkImage __attribute__((swift_name("encode(sdkImage:)")));
 - (NSData *)encodeNativeImage:(void *)nativeImage __attribute__((swift_name("encode(nativeImage:)")));
 - (id<BiometricSdkFaceTemplateRecord>)encodeRecord:(id<BiometricSdkFaceImageRecord>)record __attribute__((swift_name("encode(record:)")));
-- (NSData *)extractAndEncodeSdkImage:(BiometricSdkImage *)sdkImage __attribute__((swift_name("extractAndEncode(sdkImage:)")));
-- (NSData *)extractAndEncodeNativeImage:(void *)nativeImage __attribute__((swift_name("extractAndEncode(nativeImage:)")));
+- (NSData * _Nullable)extractAndEncodeSdkImage:(BiometricSdkImage *)sdkImage __attribute__((swift_name("extractAndEncode(sdkImage:)")));
+- (NSData * _Nullable)extractAndEncodeNativeImage:(void *)nativeImage __attribute__((swift_name("extractAndEncode(nativeImage:)")));
 - (id<BiometricSdkFaceTemplateRecord>)extractAndEncodeRecord:(id<BiometricSdkFaceImageRecord>)record __attribute__((swift_name("extractAndEncode(record:)")));
 @end
 
@@ -733,8 +761,8 @@ __attribute__((swift_name("FaceExtractProperties")))
 __attribute__((swift_name("FaceExtractor")))
 @protocol BiometricSdkFaceExtractor
 @required
-- (BiometricSdkImage *)extractSdkImage:(BiometricSdkImage *)sdkImage __attribute__((swift_name("extract(sdkImage:)")));
-- (void *)extractNativeImage:(void *)nativeImage __attribute__((swift_name("extract(nativeImage:)")));
+- (BiometricSdkImage * _Nullable)extractSdkImage:(BiometricSdkImage *)sdkImage __attribute__((swift_name("extract(sdkImage:)")));
+- (void * _Nullable)extractNativeImage:(void *)nativeImage __attribute__((swift_name("extract(nativeImage:)")));
 - (id<BiometricSdkFaceImageRecord>)extractRecord:(id<BiometricSdkFaceImageRecord>)record __attribute__((swift_name("extract(record:)")));
 @end
 
@@ -757,12 +785,15 @@ __attribute__((swift_name("FaceMatcher")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("FaceNetModelConfiguration")))
 @interface BiometricSdkFaceNetModelConfiguration : BiometricSdkBase
-- (instancetype)initWithTfliteModelPath:(NSString *)tfliteModelPath modelChecksum:(int32_t)modelChecksum inputWidth:(int32_t)inputWidth inputHeight:(int32_t)inputHeight outputLength:(int32_t)outputLength __attribute__((swift_name("init(tfliteModelPath:modelChecksum:inputWidth:inputHeight:outputLength:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithPath:(NSString *)path inputWidth:(int32_t)inputWidth inputHeight:(int32_t)inputHeight outputLength:(int32_t)outputLength __attribute__((swift_name("init(path:inputWidth:inputHeight:outputLength:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithPath:(NSString *)path inputWidth:(int32_t)inputWidth inputHeight:(int32_t)inputHeight outputLength:(int32_t)outputLength modelChecksum:(NSString * _Nullable)modelChecksum modelChecksumMethod:(BiometricSdkHashMethod * _Nullable)modelChecksumMethod overrideCacheOnWrongChecksum:(BiometricSdkBoolean * _Nullable)overrideCacheOnWrongChecksum __attribute__((swift_name("init(path:inputWidth:inputHeight:outputLength:modelChecksum:modelChecksumMethod:overrideCacheOnWrongChecksum:)"))) __attribute__((objc_designated_initializer));
 @property (readonly) int32_t inputHeight __attribute__((swift_name("inputHeight")));
 @property (readonly) int32_t inputWidth __attribute__((swift_name("inputWidth")));
-@property (readonly) int32_t modelChecksum __attribute__((swift_name("modelChecksum")));
+@property (readonly) NSString * _Nullable modelChecksum __attribute__((swift_name("modelChecksum")));
+@property (readonly) BiometricSdkHashMethod * _Nullable modelChecksumMethod __attribute__((swift_name("modelChecksumMethod")));
 @property (readonly) int32_t outputLength __attribute__((swift_name("outputLength")));
-@property (readonly) NSString *tfliteModelPath __attribute__((swift_name("tfliteModelPath")));
+@property (readonly) BiometricSdkBoolean * _Nullable overrideCacheOnWrongChecksum __attribute__((swift_name("overrideCacheOnWrongChecksum")));
+@property (readonly) NSString *path __attribute__((swift_name("path")));
 @end
 
 __attribute__((swift_name("FaceOperations")))
@@ -813,15 +844,72 @@ __attribute__((swift_name("InputOutputOperations")))
 @required
 @end
 
+__attribute__((swift_name("ResourceIO")))
+@protocol BiometricSdkResourceIO
+@required
+- (BOOL)cacheDeleteName:(NSString *)name __attribute__((swift_name("cacheDelete(name:)")));
+- (BOOL)cacheExistsName:(NSString *)name __attribute__((swift_name("cacheExists(name:)")));
+
+/**
+ * @note This method converts instances of IOException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (BiometricSdkKotlinByteArray * _Nullable)cacheLoadName:(NSString *)name error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("cacheLoad(name:)")));
+
+/**
+ * @note This method converts instances of IOException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (BOOL)cacheSaveName:(NSString *)name data:(BiometricSdkKotlinByteArray *)data error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("cacheSave(name:data:)")));
+- (NSString *)calculateHashData:(BiometricSdkKotlinByteArray *)data method:(BiometricSdkHashMethod *)method __attribute__((swift_name("calculateHash(data:method:)")));
+
+/**
+ * @note This method converts instances of IOException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (BiometricSdkKotlinByteArray * _Nullable)readPath:(NSString *)path error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("read(path:)")));
+
+/**
+ * @note This method converts instances of IOException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (BiometricSdkKotlinByteArray * _Nullable)readOrCacheLoadDataName:(NSString *)name path:(NSString *)path error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("readOrCacheLoadData(name:path:)")));
+
+/**
+ * @note This method converts instances of IOException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (BiometricSdkKotlinByteArray * _Nullable)readOrCacheLoadDataName:(NSString *)name path:(NSString *)path modelCheckSum:(NSString *)modelCheckSum modelChecksumMethod:(BiometricSdkHashMethod *)modelChecksumMethod overrideOnWrongChecksum:(BOOL)overrideOnWrongChecksum error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("readOrCacheLoadData(name:path:modelCheckSum:modelChecksumMethod:overrideOnWrongChecksum:)")));
+
+/**
+ * @note This method converts instances of IOException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (NSString * _Nullable)readOrCacheLoadPathName:(NSString *)name path:(NSString *)path error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("readOrCacheLoadPath(name:path:)")));
+
+/**
+ * @note This method converts instances of IOException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (NSString * _Nullable)readOrCacheLoadPathName:(NSString *)name path:(NSString *)path modelCheckSum:(NSString *)modelCheckSum modelChecksumMethod:(BiometricSdkHashMethod *)modelChecksumMethod overrideOnWrongChecksum:(BOOL)overrideOnWrongChecksum error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("readOrCacheLoadPath(name:path:modelCheckSum:modelChecksumMethod:overrideOnWrongChecksum:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ResourceIOFactory")))
+@interface BiometricSdkResourceIOFactory : BiometricSdkBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)resourceIOFactory __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) BiometricSdkResourceIOFactory *shared __attribute__((swift_name("shared")));
+- (id<BiometricSdkResourceIO>)getInstance __attribute__((swift_name("getInstance()")));
+- (void)initializeContext:(BiometricSdkPlatformContext * _Nullable)context __attribute__((swift_name("initialize(context:)")));
+@end
+
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("IOException")))
-@interface BiometricSdkIOException : BiometricSdkKotlinException
+@interface BiometricSdkIOException : BiometricSdkSdkException
 - (instancetype)initWithMessage:(NSString *)message throwable:(BiometricSdkKotlinThrowable * _Nullable)throwable __attribute__((swift_name("init(message:throwable:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-+ (instancetype)new __attribute__((unavailable));
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 - (instancetype)initWithMessage:(NSString * _Nullable)message cause:(BiometricSdkKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-- (instancetype)initWithCause:(BiometricSdkKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -853,6 +941,12 @@ __attribute__((swift_name("ImageSerializer")))
 - (BiometricSdkImage *)readData:(BiometricSdkKotlinByteArray *)data __attribute__((swift_name("read(data:)")));
 - (BiometricSdkKotlinByteArray *)writeImage:(BiometricSdkImage *)image __attribute__((swift_name("write(image:)")));
 @property (readonly) BiometricSdkImageFormat_ *format __attribute__((swift_name("format")));
+@end
+
+__attribute__((swift_name("PlatformContext")))
+@interface BiometricSdkPlatformContext : BiometricSdkBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -911,30 +1005,6 @@ __attribute__((swift_name("Point")))
 @property (readonly) int32_t y __attribute__((swift_name("y")));
 @end
 
-__attribute__((swift_name("Interpreter")))
-@protocol BiometricSdkInterpreter
-@required
-- (void)invokeInputs:(NSDictionary<BiometricSdkInt *, id> *)inputs outputs:(BiometricSdkMutableDictionary<BiometricSdkInt *, id> *)outputs __attribute__((swift_name("invoke(inputs:outputs:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("InterpreterImpl")))
-@interface BiometricSdkInterpreterImpl : BiometricSdkBase <BiometricSdkInterpreter>
-- (instancetype)initWithModelPath:(NSString *)modelPath modelChecksum:(int32_t)modelChecksum __attribute__((swift_name("init(modelPath:modelChecksum:)"))) __attribute__((objc_designated_initializer));
-- (void)invokeInputs:(NSDictionary<BiometricSdkInt *, id> *)inputs outputs:(BiometricSdkMutableDictionary<BiometricSdkInt *, id> *)outputs __attribute__((swift_name("invoke(inputs:outputs:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("TensorflowException")))
-@interface BiometricSdkTensorflowException : BiometricSdkKotlinException
-- (instancetype)initWithMessage:(NSString *)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-+ (instancetype)new __attribute__((unavailable));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(BiometricSdkKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-- (instancetype)initWithCause:(BiometricSdkKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (readonly) NSString *message __attribute__((swift_name("message")));
-@end
-
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("BiometricRecordValidationResult")))
 @interface BiometricSdkBiometricRecordValidationResult : BiometricSdkBase
@@ -976,39 +1046,14 @@ __attribute__((swift_name("BiometricType")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("ResourceHelper")))
-@interface BiometricSdkResourceHelper : BiometricSdkBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (NSString *)cacheAndGetPathName:(NSString *)name url:(NSString *)url checksum:(int32_t)checksum __attribute__((swift_name("cacheAndGetPath(name:url:checksum:)")));
-- (BiometricSdkKotlinByteArray *)cacheAndReadName:(NSString *)name url:(NSString *)url checksum:(int32_t)checksum __attribute__((swift_name("cacheAndRead(name:url:checksum:)")));
-- (BiometricSdkKotlinByteArray *)readUrl:(NSString *)url __attribute__((swift_name("read(url:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("ResourceHelperFactory")))
-@interface BiometricSdkResourceHelperFactory : BiometricSdkBase
+__attribute__((swift_name("HashMethod")))
+@interface BiometricSdkHashMethod : BiometricSdkKotlinEnum<BiometricSdkHashMethod *>
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)resourceHelperFactory __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) BiometricSdkResourceHelperFactory *shared __attribute__((swift_name("shared")));
-- (BiometricSdkResourceHelper *)getInstance __attribute__((swift_name("getInstance()")));
-- (void)initialize __attribute__((swift_name("initialize()")));
-@end
-
-__attribute__((swift_name("BiometricException")))
-@interface BiometricSdkBiometricException : BiometricSdkKotlinException
-- (instancetype)initWithMessage:(NSString *)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-+ (instancetype)new __attribute__((unavailable));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(BiometricSdkKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-- (instancetype)initWithCause:(BiometricSdkKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("BiometricNotFoundException")))
-@interface BiometricSdkBiometricNotFoundException : BiometricSdkBiometricException
-- (instancetype)initWithMessage:(NSString *)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) BiometricSdkHashMethod *crc32 __attribute__((swift_name("crc32")));
+@property (class, readonly) BiometricSdkHashMethod *sha256 __attribute__((swift_name("sha256")));
++ (BiometricSdkKotlinArray<BiometricSdkHashMethod *> *)values __attribute__((swift_name("values()")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -1020,6 +1065,30 @@ __attribute__((swift_name("NSErrorException")))
 - (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 - (instancetype)initWithMessage:(NSString * _Nullable)message cause:(BiometricSdkKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 - (instancetype)initWithCause:(BiometricSdkKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@end
+
+__attribute__((swift_name("Interpreter")))
+@protocol BiometricSdkInterpreter
+@required
+- (void)invokeInputs:(NSDictionary<BiometricSdkInt *, id> *)inputs outputs:(BiometricSdkMutableDictionary<BiometricSdkInt *, id> *)outputs __attribute__((swift_name("invoke(inputs:outputs:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("InterpreterImpl")))
+@interface BiometricSdkInterpreterImpl : BiometricSdkBase <BiometricSdkInterpreter>
+- (instancetype)initWithModelName:(NSString *)modelName modelPath:(NSString *)modelPath modelChecksum:(NSString * _Nullable)modelChecksum modelChecksumMethod:(BiometricSdkHashMethod * _Nullable)modelChecksumMethod overrideCacheOnWrongChecksum:(BiometricSdkBoolean * _Nullable)overrideCacheOnWrongChecksum __attribute__((swift_name("init(modelName:modelPath:modelChecksum:modelChecksumMethod:overrideCacheOnWrongChecksum:)"))) __attribute__((objc_designated_initializer));
+- (void)invokeInputs:(NSDictionary<BiometricSdkInt *, id> *)inputs outputs:(BiometricSdkMutableDictionary<BiometricSdkInt *, id> *)outputs __attribute__((swift_name("invoke(inputs:outputs:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("TensorflowException")))
+@interface BiometricSdkTensorflowException : BiometricSdkKotlinException
+- (instancetype)initWithMessage:(NSString *)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(BiometricSdkKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)initWithCause:(BiometricSdkKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (readonly) NSString *message __attribute__((swift_name("message")));
 @end
 
 __attribute__((swift_name("QualityControlOperations")))
@@ -1063,6 +1132,12 @@ __attribute__((swift_name("IsoRecord19794_2HelperKt")))
 @interface BiometricSdkIsoRecord19794_2HelperKt : BiometricSdkBase
 + (int32_t)getMinutiaValue:(int32_t)value source:(int32_t)source __attribute__((swift_name("getMinutia(value:source:)")));
 + (int32_t)setMinutiaValue:(int32_t)value pos:(int32_t)pos __attribute__((swift_name("setMinutia(value:pos:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PlatformContextKt")))
+@interface BiometricSdkPlatformContextKt : BiometricSdkBase
++ (BiometricSdkPlatformContext *)createContext __attribute__((swift_name("createContext()")));
 @end
 
 __attribute__((objc_subclassing_restricted))
