@@ -776,6 +776,10 @@ __attribute__((swift_name("FaceMatchProperties")))
 __attribute__((swift_name("FaceMatcher")))
 @protocol BiometricSdkFaceMatcher
 @required
+- (double)matchScoreSample1:(NSData *)sample1 sample2:(NSData *)sample2 __attribute__((swift_name("matchScore(sample1:sample2:)")));
+- (double)matchScoreSample1:(id<BiometricSdkFaceTemplateRecord>)sample1 sample2_:(id<BiometricSdkFaceTemplateRecord>)sample2 __attribute__((swift_name("matchScore(sample1:sample2_:)")));
+- (double)matchScoreMinSample1:(NSData *)sample1 samples:(NSArray<NSData *> *)samples __attribute__((swift_name("matchScoreMin(sample1:samples:)")));
+- (double)matchScoreMinSample1:(id<BiometricSdkFaceTemplateRecord>)sample1 samples_:(NSArray<id<BiometricSdkFaceTemplateRecord>> *)samples __attribute__((swift_name("matchScoreMin(sample1:samples_:)")));
 - (BOOL)matchesSample1:(NSData *)sample1 sample2:(NSData *)sample2 __attribute__((swift_name("matches(sample1:sample2:)")));
 - (BOOL)matchesSample1:(id<BiometricSdkFaceTemplateRecord>)sample1 sample2__:(id<BiometricSdkFaceTemplateRecord>)sample2 __attribute__((swift_name("matches(sample1:sample2__:)")));
 - (BOOL)matchesAnySample1:(NSData *)sample1 samples:(NSArray<NSData *> *)samples __attribute__((swift_name("matchesAny(sample1:samples:)")));
