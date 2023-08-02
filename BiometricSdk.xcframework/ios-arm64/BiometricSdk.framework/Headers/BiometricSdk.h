@@ -148,7 +148,7 @@ __attribute__((swift_name("BiometricSdk")))
 @protocol BiometricSdkBiometricSdk
 @required
 - (BiometricSdkBiometricSdkConfigBuilder *)configBuilder __attribute__((swift_name("configBuilder()")));
-- (id<BiometricSdkBiometricSdkOperations>)getInstance __attribute__((swift_name("getInstance()")));
+- (id<BiometricSdkBiometricSdkOperations> _Nullable)getInstance __attribute__((swift_name("getInstance()")));
 
 /**
  * @note This method converts instances of SdkInitializationException, IOException to errors.
@@ -185,7 +185,7 @@ __attribute__((swift_name("BiometricSdkFactory")))
 + (instancetype)biometricSdkFactory __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) BiometricSdkBiometricSdkFactory *shared __attribute__((swift_name("shared")));
 - (BiometricSdkBiometricSdkConfigBuilder *)configBuilder __attribute__((swift_name("configBuilder()")));
-- (id<BiometricSdkBiometricSdkOperations>)getInstance __attribute__((swift_name("getInstance()")));
+- (id<BiometricSdkBiometricSdkOperations> _Nullable)getInstance __attribute__((swift_name("getInstance()")));
 
 /**
  * @note This method converts instances of SdkInitializationException, IOException to errors.
