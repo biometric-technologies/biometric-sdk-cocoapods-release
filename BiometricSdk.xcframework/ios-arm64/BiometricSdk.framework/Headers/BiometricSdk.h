@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class BiometricSdkBiometricSdkConfigBuilder, BiometricSdkBiometricSdkConfig, BiometricSdkPlatformContext, BiometricSdkIrisConfig, BiometricSdkFaceConfig, BiometricSdkFaceExtractProperties, BiometricSdkFaceEncodeProperties, BiometricSdkFaceMatchProperties, BiometricSdkIrisExtractProperties, BiometricSdkIrisEncodeProperties, BiometricSdkIrisMatchProperties, BiometricSdkBiometricSdkFactory, BiometricSdkKotlinThrowable, BiometricSdkKotlinArray<T>, BiometricSdkKotlinException, BiometricSdkSdkException, BiometricSdkKotlinRuntimeException, BiometricSdkIrisEncodePropertiesCompanion, NSData, BiometricSdkImage, BiometricSdkIrisExtractPropertiesCompanion, BiometricSdkKotlinEnumCompanion, BiometricSdkKotlinEnum<E>, BiometricSdkCompressionHistory, BiometricSdkDeviceTechnology, BiometricSdkEyeLabel, BiometricSdkHorizontalOrientation, BiometricSdkImageFormat, BiometricSdkImageType, BiometricSdkBiometricType, BiometricSdkIsoRecord19794_6DataBlock, BiometricSdkIsoRecord19794_6, BiometricSdkIsoRecord19794_6Header, BiometricSdkKotlinByteArray, BiometricSdkKotlinx_datetimeInstant, BiometricSdkQualityBlock, BiometricSdkVerticalOrientation, BiometricSdkRange, BiometricSdkProperties, BiometricSdkCertificationRecord, BiometricSdkIsoRecord19794_2DataBlock, BiometricSdkIsoRecord19794_2, BiometricSdkIsoRecord19794_2Header, BiometricSdkIsoRecord19794_2MinutiaData, BiometricSdkQualityRecord, BiometricSdkFaceNetModelConfiguration, BiometricSdkHashMethod, BiometricSdkImageFormat_, BiometricSdkResourceIOFactory, BiometricSdkCircle, BiometricSdkImageColorType, BiometricSdkKotlinIntArray, BiometricSdkPoint, BiometricSdkKotlinIntRange, BiometricSdkBiometricRecordValidationResult, NSError, BiometricSdkKotlinByteIterator, BiometricSdkKotlinx_datetimeInstantCompanion, BiometricSdkKotlinIntIterator, BiometricSdkKotlinIntProgressionCompanion, BiometricSdkKotlinIntProgression, BiometricSdkKotlinIntRangeCompanion, BiometricSdkKotlinx_serialization_coreSerializersModule, BiometricSdkKotlinx_serialization_coreSerialKind, BiometricSdkKotlinNothing;
+@class BiometricSdkBiometricSdkConfigBuilder, BiometricSdkBiometricSdkConfig, BiometricSdkPlatformContext, BiometricSdkIrisConfig, BiometricSdkFaceConfig, BiometricSdkFaceExtractProperties, BiometricSdkFaceEncodeProperties, BiometricSdkFaceMatchProperties, BiometricSdkFaceLivenessDetectionProperties, BiometricSdkIrisExtractProperties, BiometricSdkIrisEncodeProperties, BiometricSdkIrisMatchProperties, BiometricSdkBiometricSdkFactory, BiometricSdkKotlinThrowable, BiometricSdkKotlinArray<T>, BiometricSdkKotlinException, BiometricSdkSdkException, BiometricSdkKotlinRuntimeException, BiometricSdkIrisEncodePropertiesCompanion, NSData, BiometricSdkImage, BiometricSdkIrisExtractPropertiesCompanion, BiometricSdkKotlinEnumCompanion, BiometricSdkKotlinEnum<E>, BiometricSdkCompressionHistory, BiometricSdkDeviceTechnology, BiometricSdkEyeLabel, BiometricSdkHorizontalOrientation, BiometricSdkImageFormat, BiometricSdkImageType, BiometricSdkBiometricType, BiometricSdkIsoRecord19794_6DataBlock, BiometricSdkIsoRecord19794_6, BiometricSdkIsoRecord19794_6Header, BiometricSdkKotlinByteArray, BiometricSdkKotlinx_datetimeInstant, BiometricSdkQualityBlock, BiometricSdkVerticalOrientation, BiometricSdkRange, BiometricSdkProperties, BiometricSdkCertificationRecord, BiometricSdkIsoRecord19794_2DataBlock, BiometricSdkIsoRecord19794_2, BiometricSdkIsoRecord19794_2Header, BiometricSdkIsoRecord19794_2MinutiaData, BiometricSdkQualityRecord, BiometricSdkFaceNetModelConfiguration, BiometricSdkLivenessModelConfiguration, BiometricSdkHashMethod, BiometricSdkImageFormat_, BiometricSdkResourceIOFactory, BiometricSdkCircle, BiometricSdkImageColorType, BiometricSdkKotlinIntArray, BiometricSdkPoint, BiometricSdkKotlinIntRange, BiometricSdkBiometricRecordValidationResult, NSError, BiometricSdkKotlinByteIterator, BiometricSdkKotlinx_datetimeInstantCompanion, BiometricSdkKotlinIntIterator, BiometricSdkKotlinIntProgressionCompanion, BiometricSdkKotlinIntProgression, BiometricSdkKotlinIntRangeCompanion, BiometricSdkKotlinx_serialization_coreSerializersModule, BiometricSdkKotlinx_serialization_coreSerialKind, BiometricSdkKotlinNothing;
 
-@protocol BiometricSdkBiometricSdkOperations, BiometricSdkBiometricSdk, BiometricSdkFaceOperations, BiometricSdkInputOutputOperations, BiometricSdkIrisOperations, BiometricSdkQualityControlOperations, BiometricSdkBiometricRecord, BiometricSdkKotlinClosedRange, BiometricSdkIrisEncoder, BiometricSdkIrisExtractor, BiometricSdkIrisMatcher, BiometricSdkKotlinComparable, BiometricSdkIdentifiable, BiometricSdkBiometricRecordSerializer, BiometricSdkFaceTemplateRecord, BiometricSdkFaceImageRecord, BiometricSdkFaceEncoder, BiometricSdkFaceExtractor, BiometricSdkFaceMatcher, BiometricSdkInputOutputRecordOperations, BiometricSdkInputOutputImageOperations, BiometricSdkInputOutputImageConvertOperations, BiometricSdkResourceIO, BiometricSdkInterpreter, BiometricSdkKotlinIterator, BiometricSdkKotlinIterable, BiometricSdkKotlinOpenEndRange, BiometricSdkKotlinx_serialization_coreKSerializer, BiometricSdkKotlinx_serialization_coreEncoder, BiometricSdkKotlinx_serialization_coreSerialDescriptor, BiometricSdkKotlinx_serialization_coreSerializationStrategy, BiometricSdkKotlinx_serialization_coreDecoder, BiometricSdkKotlinx_serialization_coreDeserializationStrategy, BiometricSdkKotlinx_serialization_coreCompositeEncoder, BiometricSdkKotlinAnnotation, BiometricSdkKotlinx_serialization_coreCompositeDecoder, BiometricSdkKotlinx_serialization_coreSerializersModuleCollector, BiometricSdkKotlinKClass, BiometricSdkKotlinKDeclarationContainer, BiometricSdkKotlinKAnnotatedElement, BiometricSdkKotlinKClassifier;
+@protocol BiometricSdkBiometricSdkOperations, BiometricSdkBiometricSdk, BiometricSdkFaceOperations, BiometricSdkInputOutputOperations, BiometricSdkIrisOperations, BiometricSdkQualityControlOperations, BiometricSdkBiometricRecord, BiometricSdkKotlinClosedRange, BiometricSdkIrisEncoder, BiometricSdkIrisExtractor, BiometricSdkIrisMatcher, BiometricSdkKotlinComparable, BiometricSdkIdentifiable, BiometricSdkBiometricRecordSerializer, BiometricSdkFaceEncoder, BiometricSdkFaceExtractor, BiometricSdkFaceLivenessDetection, BiometricSdkFaceMatcher, BiometricSdkInputOutputRecordOperations, BiometricSdkInputOutputImageOperations, BiometricSdkInputOutputImageConvertOperations, BiometricSdkResourceIO, BiometricSdkInterpreter, BiometricSdkKotlinIterator, BiometricSdkKotlinIterable, BiometricSdkKotlinOpenEndRange, BiometricSdkKotlinx_serialization_coreKSerializer, BiometricSdkKotlinx_serialization_coreEncoder, BiometricSdkKotlinx_serialization_coreSerialDescriptor, BiometricSdkKotlinx_serialization_coreSerializationStrategy, BiometricSdkKotlinx_serialization_coreDecoder, BiometricSdkKotlinx_serialization_coreDeserializationStrategy, BiometricSdkKotlinx_serialization_coreCompositeEncoder, BiometricSdkKotlinAnnotation, BiometricSdkKotlinx_serialization_coreCompositeDecoder, BiometricSdkKotlinx_serialization_coreSerializersModuleCollector, BiometricSdkKotlinKClass, BiometricSdkKotlinKDeclarationContainer, BiometricSdkKotlinKAnnotatedElement, BiometricSdkKotlinKClassifier;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -173,7 +173,7 @@ __attribute__((swift_name("BiometricSdkConfigBuilder")))
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 - (BiometricSdkBiometricSdkConfig *)build __attribute__((swift_name("build()")));
 - (BiometricSdkBiometricSdkConfigBuilder *)withContextContext:(BiometricSdkPlatformContext *)context __attribute__((swift_name("withContext(context:)")));
-- (BiometricSdkBiometricSdkConfigBuilder *)withFaceExtractor:(BiometricSdkFaceExtractProperties *)extractor encoder:(BiometricSdkFaceEncodeProperties *)encoder matcher:(BiometricSdkFaceMatchProperties *)matcher __attribute__((swift_name("withFace(extractor:encoder:matcher:)")));
+- (BiometricSdkBiometricSdkConfigBuilder *)withFaceExtractor:(BiometricSdkFaceExtractProperties * _Nullable)extractor encoder:(BiometricSdkFaceEncodeProperties * _Nullable)encoder matcher:(BiometricSdkFaceMatchProperties * _Nullable)matcher liveness:(BiometricSdkFaceLivenessDetectionProperties * _Nullable)liveness __attribute__((swift_name("withFace(extractor:encoder:matcher:liveness:)")));
 - (BiometricSdkBiometricSdkConfigBuilder *)withIrisExtractor:(BiometricSdkIrisExtractProperties *)extractor encoder:(BiometricSdkIrisEncodeProperties *)encoder matcher:(BiometricSdkIrisMatchProperties *)matcher __attribute__((swift_name("withIris(extractor:encoder:matcher:)")));
 @end
 
@@ -206,14 +206,15 @@ __attribute__((swift_name("BiometricSdkOperations")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("FaceConfig")))
 @interface BiometricSdkFaceConfig : BiometricSdkBase
-- (instancetype)initWithExtractor:(BiometricSdkFaceExtractProperties *)extractor encoder:(BiometricSdkFaceEncodeProperties *)encoder matcher:(BiometricSdkFaceMatchProperties *)matcher __attribute__((swift_name("init(extractor:encoder:matcher:)"))) __attribute__((objc_designated_initializer));
-- (BiometricSdkFaceConfig *)doCopyExtractor:(BiometricSdkFaceExtractProperties *)extractor encoder:(BiometricSdkFaceEncodeProperties *)encoder matcher:(BiometricSdkFaceMatchProperties *)matcher __attribute__((swift_name("doCopy(extractor:encoder:matcher:)")));
+- (instancetype)initWithExtractor:(BiometricSdkFaceExtractProperties * _Nullable)extractor encoder:(BiometricSdkFaceEncodeProperties * _Nullable)encoder matcher:(BiometricSdkFaceMatchProperties * _Nullable)matcher liveness:(BiometricSdkFaceLivenessDetectionProperties * _Nullable)liveness __attribute__((swift_name("init(extractor:encoder:matcher:liveness:)"))) __attribute__((objc_designated_initializer));
+- (BiometricSdkFaceConfig *)doCopyExtractor:(BiometricSdkFaceExtractProperties * _Nullable)extractor encoder:(BiometricSdkFaceEncodeProperties * _Nullable)encoder matcher:(BiometricSdkFaceMatchProperties * _Nullable)matcher liveness:(BiometricSdkFaceLivenessDetectionProperties * _Nullable)liveness __attribute__((swift_name("doCopy(extractor:encoder:matcher:liveness:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) BiometricSdkFaceEncodeProperties *encoder __attribute__((swift_name("encoder")));
-@property (readonly) BiometricSdkFaceExtractProperties *extractor __attribute__((swift_name("extractor")));
-@property (readonly) BiometricSdkFaceMatchProperties *matcher __attribute__((swift_name("matcher")));
+@property (readonly) BiometricSdkFaceEncodeProperties * _Nullable encoder __attribute__((swift_name("encoder")));
+@property (readonly) BiometricSdkFaceExtractProperties * _Nullable extractor __attribute__((swift_name("extractor")));
+@property (readonly) BiometricSdkFaceLivenessDetectionProperties * _Nullable liveness __attribute__((swift_name("liveness")));
+@property (readonly) BiometricSdkFaceMatchProperties * _Nullable matcher __attribute__((swift_name("matcher")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -736,19 +737,15 @@ __attribute__((swift_name("QualityRecord")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("FaceEncodeProperties")))
 @interface BiometricSdkFaceEncodeProperties : BiometricSdkBase
-- (instancetype)initWithFaceNetModel:(BiometricSdkFaceNetModelConfiguration *)faceNetModel __attribute__((swift_name("init(faceNetModel:)"))) __attribute__((objc_designated_initializer));
-@property (readonly) BiometricSdkFaceNetModelConfiguration *faceNetModel __attribute__((swift_name("faceNetModel")));
+- (instancetype)initWithTfModel:(BiometricSdkFaceNetModelConfiguration *)tfModel __attribute__((swift_name("init(tfModel:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) BiometricSdkFaceNetModelConfiguration *tfModel __attribute__((swift_name("tfModel")));
 @end
 
 __attribute__((swift_name("FaceEncoder")))
 @protocol BiometricSdkFaceEncoder
 @required
-- (NSData *)encodeSdkImage:(BiometricSdkImage *)sdkImage __attribute__((swift_name("encode(sdkImage:)")));
 - (NSData *)encodeNativeImage:(void *)nativeImage __attribute__((swift_name("encode(nativeImage:)")));
-- (id<BiometricSdkFaceTemplateRecord>)encodeRecord:(id<BiometricSdkFaceImageRecord>)record __attribute__((swift_name("encode(record:)")));
-- (NSData * _Nullable)extractAndEncodeSdkImage:(BiometricSdkImage *)sdkImage __attribute__((swift_name("extractAndEncode(sdkImage:)")));
 - (NSData * _Nullable)extractAndEncodeNativeImage:(void *)nativeImage __attribute__((swift_name("extractAndEncode(nativeImage:)")));
-- (id<BiometricSdkFaceTemplateRecord>)extractAndEncodeRecord:(id<BiometricSdkFaceImageRecord>)record __attribute__((swift_name("extractAndEncode(record:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -761,9 +758,21 @@ __attribute__((swift_name("FaceExtractProperties")))
 __attribute__((swift_name("FaceExtractor")))
 @protocol BiometricSdkFaceExtractor
 @required
-- (BiometricSdkImage * _Nullable)extractSdkImage:(BiometricSdkImage *)sdkImage __attribute__((swift_name("extract(sdkImage:)")));
 - (void * _Nullable)extractNativeImage:(void *)nativeImage __attribute__((swift_name("extract(nativeImage:)")));
-- (id<BiometricSdkFaceImageRecord>)extractRecord:(id<BiometricSdkFaceImageRecord>)record __attribute__((swift_name("extract(record:)")));
+@end
+
+__attribute__((swift_name("FaceLivenessDetection")))
+@protocol BiometricSdkFaceLivenessDetection
+@required
+- (double)scoreNativeImage:(void *)nativeImage __attribute__((swift_name("score(nativeImage:)")));
+- (BOOL)validateNativeImage:(void *)nativeImage __attribute__((swift_name("validate(nativeImage:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FaceLivenessDetectionProperties")))
+@interface BiometricSdkFaceLivenessDetectionProperties : BiometricSdkBase
+- (instancetype)initWithTfModel:(BiometricSdkLivenessModelConfiguration *)tfModel __attribute__((swift_name("init(tfModel:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) BiometricSdkLivenessModelConfiguration *tfModel __attribute__((swift_name("tfModel")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -777,13 +786,9 @@ __attribute__((swift_name("FaceMatcher")))
 @protocol BiometricSdkFaceMatcher
 @required
 - (double)matchScoreSample1:(NSData *)sample1 sample2:(NSData *)sample2 __attribute__((swift_name("matchScore(sample1:sample2:)")));
-- (double)matchScoreSample1:(id<BiometricSdkFaceTemplateRecord>)sample1 sample2_:(id<BiometricSdkFaceTemplateRecord>)sample2 __attribute__((swift_name("matchScore(sample1:sample2_:)")));
 - (double)matchScoreMinSample1:(NSData *)sample1 samples:(NSArray<NSData *> *)samples __attribute__((swift_name("matchScoreMin(sample1:samples:)")));
-- (double)matchScoreMinSample1:(id<BiometricSdkFaceTemplateRecord>)sample1 samples_:(NSArray<id<BiometricSdkFaceTemplateRecord>> *)samples __attribute__((swift_name("matchScoreMin(sample1:samples_:)")));
 - (BOOL)matchesSample1:(NSData *)sample1 sample2:(NSData *)sample2 __attribute__((swift_name("matches(sample1:sample2:)")));
-- (BOOL)matchesSample1:(id<BiometricSdkFaceTemplateRecord>)sample1 sample2__:(id<BiometricSdkFaceTemplateRecord>)sample2 __attribute__((swift_name("matches(sample1:sample2__:)")));
 - (BOOL)matchesAnySample1:(NSData *)sample1 samples:(NSArray<NSData *> *)samples __attribute__((swift_name("matchesAny(sample1:samples:)")));
-- (BOOL)matchesAnySample1:(id<BiometricSdkFaceTemplateRecord>)sample1 samples__:(NSArray<id<BiometricSdkFaceTemplateRecord>> *)samples __attribute__((swift_name("matchesAny(sample1:samples__:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -805,7 +810,22 @@ __attribute__((swift_name("FaceOperations")))
 @required
 - (id<BiometricSdkFaceEncoder>)encoder __attribute__((swift_name("encoder()")));
 - (id<BiometricSdkFaceExtractor>)extractor __attribute__((swift_name("extractor()")));
+- (id<BiometricSdkFaceLivenessDetection>)liveness __attribute__((swift_name("liveness()")));
 - (id<BiometricSdkFaceMatcher>)matcher __attribute__((swift_name("matcher()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("LivenessModelConfiguration")))
+@interface BiometricSdkLivenessModelConfiguration : BiometricSdkBase
+- (instancetype)initWithPath:(NSString *)path inputWidth:(int32_t)inputWidth inputHeight:(int32_t)inputHeight threshold:(double)threshold __attribute__((swift_name("init(path:inputWidth:inputHeight:threshold:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithPath:(NSString *)path inputWidth:(int32_t)inputWidth inputHeight:(int32_t)inputHeight threshold:(double)threshold modelChecksum:(NSString * _Nullable)modelChecksum modelChecksumMethod:(BiometricSdkHashMethod * _Nullable)modelChecksumMethod overrideCacheOnWrongChecksum:(BiometricSdkBoolean * _Nullable)overrideCacheOnWrongChecksum __attribute__((swift_name("init(path:inputWidth:inputHeight:threshold:modelChecksum:modelChecksumMethod:overrideCacheOnWrongChecksum:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) int32_t inputHeight __attribute__((swift_name("inputHeight")));
+@property (readonly) int32_t inputWidth __attribute__((swift_name("inputWidth")));
+@property (readonly) NSString * _Nullable modelChecksum __attribute__((swift_name("modelChecksum")));
+@property (readonly) BiometricSdkHashMethod * _Nullable modelChecksumMethod __attribute__((swift_name("modelChecksumMethod")));
+@property (readonly) BiometricSdkBoolean * _Nullable overrideCacheOnWrongChecksum __attribute__((swift_name("overrideCacheOnWrongChecksum")));
+@property (readonly) NSString *path __attribute__((swift_name("path")));
+@property (readonly) double threshold __attribute__((swift_name("threshold")));
 @end
 
 __attribute__((swift_name("FaceImageRecord")))

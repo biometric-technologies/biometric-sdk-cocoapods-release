@@ -1,8 +1,8 @@
 Pod::Spec.new do |spec|
     spec.name                     = 'BiometricSdk'
-    spec.version                  = '0.4.6'
+    spec.version                  = '0.5.0'
     spec.homepage                 = 'https://github.com/biometric-technologies/biometric-sdk'
-    spec.source                   = { :git => 'https://github.com/biometric-technologies/biometric-sdk-cocoapods-release.git', :tag => '0.4.6' }
+    spec.source                   = { :git => 'https://github.com/biometric-technologies/biometric-sdk-cocoapods-release.git', :tag => '0.5.0' }
     spec.authors                  = 'Slava Gornostal'
     spec.license                  = { :type => 'GPL-3.0', :text => 'GNU General Public License v3.0' }
     spec.summary                  = 'Biometric SDK'
