@@ -764,6 +764,8 @@ __attribute__((swift_name("FaceExtractor")))
 __attribute__((swift_name("FaceLivenessDetection")))
 @protocol BiometricSdkFaceLivenessDetection
 @required
+- (BiometricSdkDouble * _Nullable)extractAndScoreNativeImage:(void *)nativeImage __attribute__((swift_name("extractAndScore(nativeImage:)")));
+- (BiometricSdkBoolean * _Nullable)extractAndValidateNativeImage:(void *)nativeImage __attribute__((swift_name("extractAndValidate(nativeImage:)")));
 - (double)scoreNativeImage:(void *)nativeImage __attribute__((swift_name("score(nativeImage:)")));
 - (BOOL)validateNativeImage:(void *)nativeImage __attribute__((swift_name("validate(nativeImage:)")));
 @end
