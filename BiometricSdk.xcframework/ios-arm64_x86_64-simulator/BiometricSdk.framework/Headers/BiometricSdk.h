@@ -1096,14 +1096,14 @@ __attribute__((swift_name("NSErrorException")))
 __attribute__((swift_name("Interpreter")))
 @protocol BiometricSdkInterpreter
 @required
-- (void)invokeInputs:(NSDictionary<BiometricSdkInt *, id> *)inputs outputs:(BiometricSdkMutableDictionary<BiometricSdkInt *, id> *)outputs __attribute__((swift_name("invoke(inputs:outputs:)")));
+- (void)invokeInputs:(NSDictionary<BiometricSdkInt *, id> *)inputs outputs:(BiometricSdkMutableDictionary<BiometricSdkInt *, id> *)outputs traceId:(NSString * _Nullable)traceId __attribute__((swift_name("invoke(inputs:outputs:traceId:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("InterpreterImpl")))
 @interface BiometricSdkInterpreterImpl : BiometricSdkBase <BiometricSdkInterpreter>
 - (instancetype)initWithModelName:(NSString *)modelName modelPath:(NSString *)modelPath modelChecksum:(NSString * _Nullable)modelChecksum modelChecksumMethod:(BiometricSdkHashMethod * _Nullable)modelChecksumMethod overrideCacheOnWrongChecksum:(BiometricSdkBoolean * _Nullable)overrideCacheOnWrongChecksum __attribute__((swift_name("init(modelName:modelPath:modelChecksum:modelChecksumMethod:overrideCacheOnWrongChecksum:)"))) __attribute__((objc_designated_initializer));
-- (void)invokeInputs:(NSDictionary<BiometricSdkInt *, id> *)inputs outputs:(BiometricSdkMutableDictionary<BiometricSdkInt *, id> *)outputs __attribute__((swift_name("invoke(inputs:outputs:)")));
+- (void)invokeInputs:(NSDictionary<BiometricSdkInt *, id> *)inputs outputs:(BiometricSdkMutableDictionary<BiometricSdkInt *, id> *)outputs traceId:(NSString * _Nullable)traceId __attribute__((swift_name("invoke(inputs:outputs:traceId:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -1176,6 +1176,18 @@ __attribute__((swift_name("ColorKt")))
 + (int32_t)component3:(int32_t)receiver __attribute__((swift_name("component3(_:)")));
 + (int32_t)green:(int32_t)receiver __attribute__((swift_name("green(_:)")));
 + (int32_t)red:(int32_t)receiver __attribute__((swift_name("red(_:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("StringUtilsKt")))
+@interface BiometricSdkStringUtilsKt : BiometricSdkBase
++ (NSString *)generateRandomAlphaNumericStringLength:(int32_t)length __attribute__((swift_name("generateRandomAlphaNumericString(length:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("LogUtilsKt")))
+@interface BiometricSdkLogUtilsKt : BiometricSdkBase
++ (NSString * _Nullable)generateTraceID __attribute__((swift_name("generateTraceID()")));
 @end
 
 __attribute__((objc_subclassing_restricted))
