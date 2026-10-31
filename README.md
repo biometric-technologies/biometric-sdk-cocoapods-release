@@ -24,7 +24,7 @@ target 'YourApp' do
 end
 ```
 
-Then run `pod install` and open the generated `.xcworkspace`. In Swift, `import BiometricSdk` gives you `BiometricSdkFactory` and the configuration builders; the API is documented at [docs.iriscan.net/sdk](https://docs.iriscan.net/sdk), and [biometric-sdk-ios-example](https://github.com/biometric-technologies/biometric-sdk-ios-example) is a working app.
+Then run `pod install` and open the generated `.xcworkspace`. In Swift, `import BiometricSdk` gives you `BiometricSdkFactory` and the configuration builders; the API is documented at [docs.iriscan.com/sdk](https://docs.iriscan.com/sdk), and [biometric-sdk-ios-example](https://github.com/biometric-technologies/biometric-sdk-ios-example) is a working app.
 
 ## How a release is published
 
@@ -35,7 +35,7 @@ The podspec's `source` points at this repository's git URL with `:tag => '0.6.0'
 - [biometric-sdk](https://github.com/biometric-technologies/biometric-sdk): the SDK source (Kotlin Multiplatform: Android, iOS, JVM).
 - [biometric-sdk-ios-example](https://github.com/biometric-technologies/biometric-sdk-ios-example): SwiftUI app that uses this pod.
 - [biometric-sdk-react-native](https://github.com/biometric-technologies/biometric-sdk-react-native): React Native wrapper whose podspec depends on `BiometricSdk`.
-- [docs](https://github.com/biometric-technologies/docs): source of the developer documentation at docs.iriscan.net.
+- [docs](https://github.com/biometric-technologies/docs): source of the developer documentation at docs.iriscan.com.
 
 ## License
 
