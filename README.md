@@ -43,4 +43,4 @@ License: not yet specified in this repository (there is no LICENSE file). The po
 
 ## Contact
 
-info@iriscan.net, https://www.iriscan.com
+info@iriscan.com, https://www.iriscan.com
